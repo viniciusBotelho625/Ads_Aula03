@@ -1,19 +1,17 @@
-
 public class Triangulo extends Poligono {
 
 	public Triangulo(double base, double altura) {
 		super(base, altura);
-	// TODO Auto-generated constructor stub
 	}
-
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return super.area();
+		return super.getBase() * super.getAltura() / 2;
 	}
 	@Override
 	public double perimetro() {
-		// TODO Auto-generated method stub
-		return 0;
+		double cateto = super.getBase() / 2;
+		double hipotenusa = Math.pow(cateto, 2) + Math.pow(super.getAltura(), 2);
+		
+		return hipotenusa * super.getBase() + super.getBase() * hipotenusa + Math.pow(hipotenusa, 2);
 	}
 }

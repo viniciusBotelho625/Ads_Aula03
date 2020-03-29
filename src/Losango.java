@@ -12,7 +12,6 @@ public class Losango extends Poligono {
 	
 	@Override
 	public double perimetro() {
-		// TODO Auto-generated method stub
 		return Math.pow(super.getBase(), 4);
 	}
 }

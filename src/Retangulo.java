@@ -1,4 +1,3 @@
-
 public class Retangulo extends Poligono implements Diagonal{
 	
 	public Retangulo(double base, double altura) {
