@@ -22,5 +22,4 @@ public class Quadrado extends Poligono implements Diagonal{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
 }
