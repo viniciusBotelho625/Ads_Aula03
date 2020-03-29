@@ -14,4 +14,9 @@ public class Triangulo extends Poligono {
 		
 		return hipotenusa * super.getBase() + super.getBase() * hipotenusa + Math.pow(hipotenusa, 2);
 	}
+	@Override
+	public String toString() {
+		return "Triangulo [area()=" + area() + ", perimetro()=" + perimetro() + "]";
+	}
+	
 }

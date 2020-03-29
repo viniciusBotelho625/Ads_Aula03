@@ -15,5 +15,9 @@ public class Circulo extends Figura{
 		// TODO Auto-generated method stub
 		return 2 * Math.PI * this.raio;
 	}
+	@Override
+	public String toString() {
+		return "Circulo [area()=" + area() + ", perimetro()=" + perimetro() + "]";
+	}
 
 }
