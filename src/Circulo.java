@@ -5,6 +5,11 @@ public class Circulo extends Figura{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+
+	@Override
+	public double perimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }

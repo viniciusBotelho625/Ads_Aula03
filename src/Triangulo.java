@@ -11,4 +11,9 @@ public class Triangulo extends Poligono {
 		// TODO Auto-generated method stub
 		return super.area();
 	}
+	@Override
+	public double perimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

@@ -1,5 +1,5 @@
 
-public class Quadrado extends Poligono {
+public class Quadrado extends Poligono implements Diagonal{
 
 	public Quadrado(double base, double altura) {
 		super(base, altura);
@@ -11,4 +11,16 @@ public class Quadrado extends Poligono {
 		// TODO Auto-generated method stub
 		return super.area();
 	}
+
+	@Override
+	public double CalculaDiagonal() {
+		// TODO Auto-generated method stub
+		return Diagonal.super.CalculaDiagonal();
+	}
+	@Override
+	public double perimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
